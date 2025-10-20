@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "context7": {
+        "command": "npx",
+        "args": ["-y", "@upstash/context7-mcp", "--api-key", "CONTEXT7_API_KEY"]
+    },
+    "chrome_devtools": {
+        "command": "npx",
+        "args": ["-y", "@upstash/chrome-devtools"]
+    },
+    "exa": {
+        "command": "npx",
+        "args": ["-y", "exa-mcp-server"],
+        "env": {
+            "EXA_API_KEY": "EXA_API_KEY"
+        }
+    },
+    "gkg": {
+        "serverUrl": "http://127.0.0.1:27495/mcp"
+    }
+  }
+}
